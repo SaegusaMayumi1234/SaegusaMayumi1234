@@ -1,6 +1,8 @@
 
 ![Overall stats](https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&theme=cobalt&show_icons=true&count_private=true)
 
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SaegusaMayumi1234&theme=elegant&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+
 ---
 
 ### :hammer_and_wrench: Languages and Tools :
