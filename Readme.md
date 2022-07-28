@@ -1,7 +1,11 @@
+### Hi there, SaegusaMayumi1234 here! AKA IcarusPhantom, Julian L
 
-![Overall stats](https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&theme=cobalt&show_icons=true&count_private=true)
+---
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=SaegusaMayumi1234&theme=elegant&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
+### :fire: My Stats :
+![Overall stats](https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&theme=radical&show_icons=true&count_private=true)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaegusaMayumi1234&layout=compact)
 
 ---
 
@@ -22,3 +26,4 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/discordjs/discordjs-original.svg" title="Discord.js" alt="Discord.js" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB" alt="MongoDB" width="40" height="40"/>
 </div>
+
