@@ -1,4 +1,4 @@
-### Hi there, SaegusaMayumi1234 here! AKA IcarusPhantom, Julian L
+### Hi there, SaegusaMayumi1234 here! AKA IcarusPhantom
 
 ---
 
