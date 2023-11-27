@@ -1,11 +1,15 @@
-### Hi there, SaegusaMayumi1234 here! AKA IcarusPhantom
-
+### Welcome to my GitHub Page!
 ---
-
+#### Hi there, SaegusaMayumi1234 here! AKA IcarusPhantom
+- I love coding, gaming, and watching anime.
+- I'd like to do a project related to Discord Bots, Minecraft Mods, Automations, and AI.
+- Currently, a student with major in Cyber Security.
+- Working as a Software Solution Group Developer.
+---
 ### :fire: My Stats :
 ![Overall stats](https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&theme=radical&show_icons=true&count_private=true)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaegusaMayumi1234&layout=compact)
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaegusaMayumi1234&layout=compact) -->
 
 ---
 
@@ -28,7 +32,7 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="[github-snake-dark.svg](https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake-dark.svg)" />
-  <img alt="github-snake" src="[github-snake.svg](https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg)https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg" />
 </picture>
 
