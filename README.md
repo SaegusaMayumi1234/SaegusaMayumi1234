@@ -20,8 +20,9 @@
   <img alt="C" src="https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
   <img alt="C#" src="https://img.shields.io/badge/-C%23-512BD4?style=flat-square&logo=csharp&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/-Python-7F52FF?style=flat-square&logo=python&logoColor=white" />
+  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img alt="Kotlin" src="https://img.shields.io/badge/-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/-Java-437291?style=flat-square&logo=openjdk&logoColor=white" />
   <img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 </div>
 
