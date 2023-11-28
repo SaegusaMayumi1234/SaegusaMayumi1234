@@ -41,10 +41,6 @@
   <img alt="github-stats" align="center" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg" />
 </picture>
 
-<!-- ![Overall stats](https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&theme=dark&show_icons=true&count_private=true) -->
-<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaegusaMayumi1234&layout=compact) -->
-
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg" />
