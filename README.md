@@ -29,21 +29,25 @@
 ---
 
 ### 🔥 My Stats :
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg#gh-dark-mode-only"  />
-  <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg#gh-light-mode-only" />
-  <img alt="github-stats" align="center" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg" />
-</picture>
+<p align="center" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg#gh-dark-mode-only"  />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg#gh-light-mode-only" />
+    <img alt="github-stats" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg" />
+  </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg#gh-dark-mode-only"  />
-  <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg#gh-light-mode-only" />
-  <img alt="github-stats" align="center" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg" />
-</picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg#gh-dark-mode-only"  />
+    <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg#gh-light-mode-only" />
+    <img alt="github-stats" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg" />
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg" />
-</picture>
+<p align="center" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/SaegusaMayumi1234/SaegusaMayumi1234/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
