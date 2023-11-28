@@ -30,11 +30,16 @@
 
 ### 🔥 My Stats :
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&show_icons=true&theme=dark&count_private=true"  />
-  <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&show_icons=true&count_private=true" />
-  <img alt="github-stats" src="https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&show_icons=true&count_private=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg#gh-dark-mode-only"  />
+  <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg#gh-light-mode-only" />
+  <img alt="github-stats" align="center" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/overview.svg" />
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg#gh-dark-mode-only"  />
+  <source media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" srcset="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg#gh-light-mode-only" />
+  <img alt="github-stats" align="center" src="https://raw.githubusercontent.com/SaegusaMayumi1234/github-stats/master/generated/languages.svg" />
+</picture>
 
 <!-- ![Overall stats](https://github-readme-stats.vercel.app/api?username=SaegusaMayumi1234&theme=dark&show_icons=true&count_private=true) -->
 <!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SaegusaMayumi1234&layout=compact) -->
