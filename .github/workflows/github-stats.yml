@@ -29,7 +29,7 @@ jobs:
       with:
         repository: SaegusaMayumi1234/github-stats
         token: ${{ secrets.GITHUB_TOKEN }}
-        path: ${{ env.DEVOPS_DIR }}
+        # path: ${{ env.DEVOPS_DIR }}
     
     # Run using Python 3.8 for consistency and aiohttp
     - name: Set up Python 3.8
@@ -43,13 +43,13 @@ jobs:
     - name: Install requirements
       run: |
         python3 -m pip install --upgrade pip setuptools wheel
-        python3 -m pip install -r ${{ env.DEVOPS_DIR }}/requirements.txt
+        python3 -m pip install -r requirements.txt
 
     # Generate all statistics images
     - name: Generate images
       run: |
         python3 --version
-        python3 ${{ env.DEVOPS_DIR }}/generate_images.py
+        python3 generate_images.py
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -63,6 +63,6 @@ jobs:
       uses: crazy-max/ghaction-github-pages@v3.1.0
       with:
         target_branch: output2
-        build_dir: ${{ env.DEVOPS_DIR }}/generated
+        build_dir: generated
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
