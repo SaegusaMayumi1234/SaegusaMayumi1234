@@ -1,4 +1,4 @@
-name: generate animation
+name: generate github contributor snake
 
 on:
   # run automatically every 24 hours
