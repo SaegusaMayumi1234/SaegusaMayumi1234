@@ -8,14 +8,11 @@ on:
   # allows to manually run the job at any time
   workflow_dispatch:
   
-  # run on every push on the master branch
+  # run on every push on the main branch
   push:
     branches:
-    - master
+    - main
 
-env:
-  DEVOPS_DIR: github-stats
-  
 jobs:
   build:
     permissions:
@@ -29,7 +26,6 @@ jobs:
       with:
         repository: SaegusaMayumi1234/github-stats
         token: ${{ secrets.GITHUB_TOKEN }}
-        # path: ${{ env.DEVOPS_DIR }}
     
     # Run using Python 3.8 for consistency and aiohttp
     - name: Set up python 3.8
