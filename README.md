@@ -5,7 +5,7 @@
 #### SaegusaMayumi1234 here! AKA IcarusPhantom
 - I love programming, gaming, and watching anime.
 - I'd like to do a project related to Discord Bots, Minecraft Mods, Website, Automations, and AI.
-- Currently, a student with major in Cyber Security.
+- Cyber Security Enthusiast.
 - Working as a Software Solution Group Developer.
 
 ---
