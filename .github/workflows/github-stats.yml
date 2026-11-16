@@ -50,6 +50,12 @@ jobs:
         # https://github.com/orgs/community/discussions/192970
         MAX_RETRIES: 5
 
+    - name: Verify output
+      run: |
+        echo "Working directory: $(pwd)"
+        echo "Generated directory contents:"
+        ls -lah generated
+
     # push the content of <build_dir> to a branch
     # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
     - name: Push to the output branch
