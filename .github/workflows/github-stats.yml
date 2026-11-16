@@ -22,41 +22,38 @@ jobs:
     steps:
     # Check out repository under $GITHUB_WORKSPACE, so the job can access it
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v6
       with:
         repository: SaegusaMayumi1234/github-stats
         token: ${{ secrets.GITHUB_TOKEN }}
     
     # Run using Python 3.8 for consistency and aiohttp
-    - name: Set up python 3.8
-      uses: actions/setup-python@v4
+    - uses: mlugg/setup-zig@d1434d08867e3ee9daa34448df10607b98908d29  # v2 tag
       with:
-        python-version: '3.8'
-        architecture: 'x64'
-        cache: 'pip'
+        version: 0.16.0
 
-    # Install dependencies with `pip`
-    - name: Install requirements
+    - name: Build
       run: |
-        python3 -m pip install --upgrade pip setuptools wheel
-        python3 -m pip install -r requirements.txt
+        zig build
 
     # Generate all statistics images
     - name: Generate images
       run: |
-        python3 --version
-        python3 generate_images.py
+        ./zig-out/bin/github-stats
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        EXCLUDED: ${{ secrets.EXCLUDED }}
-        EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
-        EXCLUDE_FORKED_REPOS: true
+        EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
+        EXCLUDE_LANGS: ${{ secrets.EXCLUDE_LANGS }}
+        EXCLUDE_PRIVATE: "false"
+        SILENT: "true"
+        # TODO: Remove this when they get their API working again
+        # https://github.com/orgs/community/discussions/192970
+        MAX_RETRIES: 5
 
     # push the content of <build_dir> to a branch
     # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
     - name: Push to the output branch
-      uses: crazy-max/ghaction-github-pages@v3.1.0
+      uses: crazy-max/ghaction-github-pages@v5
       with:
         target_branch: github-stats
         build_dir: generated
