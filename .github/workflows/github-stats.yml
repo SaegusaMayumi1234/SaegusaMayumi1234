@@ -40,6 +40,15 @@ jobs:
     - name: Generate images
       run: |
         ./zig-out/bin/github-stats
+
+        echo "=== Workspace ==="
+        pwd
+    
+        echo "=== Workspace files ==="
+        ls -lah
+    
+        echo "=== Generated directories ==="
+        find . -maxdepth 4 -type d -iname "*generated*" -o -iname "*output*"
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         EXCLUDE_REPOS: ${{ secrets.EXCLUDE_REPOS }}
